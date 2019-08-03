@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
   ageEntry.textContent = e.target.age.value;
   newDiv.appendChild(ageEntry);
 
+  const nationalityEntry = document.createElement('h3');
+  nationalityEntry.textContent = e.target.nationality.value;
+  newDiv.appendChild(nationalityEntry);
+
   playerProfile.appendChild(newDiv);
 
 });
