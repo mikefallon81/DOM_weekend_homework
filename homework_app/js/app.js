@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   playerProfile.appendChild(newDiv);
 
+  e.target.reset();
+
 });
 
 });
