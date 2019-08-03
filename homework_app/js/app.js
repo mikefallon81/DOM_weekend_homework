@@ -32,4 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+const deleteButton = document.querySelector('#delete-all');
+deleteButton.addEventListener('click', (e) => {
+  while (playerProfileList.firstChild) {
+    playerProfileList.removeChild(playerProfileList.firstChild)
+  }
+
+});
+
 });
