@@ -7,22 +7,22 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
 
-  const newDiv = document.createElement('div');
+  const newDiv = document.createElement('li');
   newDiv.classList.add('list-item');
 
-  const nameEntry = document.createElement('h2');
+  const nameEntry = document.createElement('ul');
   nameEntry.textContent = e.target.name.value;
   newDiv.appendChild(nameEntry);
 
-  const positionEntry = document.createElement('h3');
+  const positionEntry = document.createElement('ul');
   positionEntry.textContent = e.target.position.value;
   newDiv.appendChild(positionEntry);
 
-  const ageEntry = document.createElement('h3');
+  const ageEntry = document.createElement('ul');
   ageEntry.textContent = e.target.age.value;
   newDiv.appendChild(ageEntry);
 
-  const nationalityEntry = document.createElement('h3');
+  const nationalityEntry = document.createElement('ul');
   nationalityEntry.textContent = e.target.nationality.value;
   newDiv.appendChild(nationalityEntry);
 
