@@ -1,17 +1,36 @@
 body{
-  background-color: grey;
+  background-color: green;
+  margin-left: 15px;
 }
 
-.list-item {
-
-}
-
-#form-wrapper {
-  display: flex;
-  justify-content: center;
-
+li.list-item {
+  min-width: 200px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-left: 10px;
+  background-color: #ffffff;
 }
 
 .form-item {
   margin-bottom: 5px;
+}
+
+.primary {
+  display: inline-block;
+  width: 8em;
+  padding: 5px;
+  margin-right: 5px;
+  vertical-align: ;
+}
+
+#playerProfileList {
+
+  display: flex;
+flex-wrap: wrap;
+background-color:
+}
+
+ul {
+  font-size: 18px;
+  font-weight: bold;
 }

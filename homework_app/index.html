@@ -18,8 +18,15 @@
         </div>
 
         <div class="form-item">
+
           <label for="" class="primary">Position</label>
-          <input type="text" id="position" required>
+          <select id="position">
+          <option value="" disabled selected></option>
+          <option value="Goalkeeper">Goalkeeper</option>
+          <option value="Defender">Defender</option>
+          <option value="Midfielder">Midfielder</option>
+          <option value="Striker">Striker</option>
+          </select>
         </div>
 
         <div class="form-item">
@@ -32,14 +39,30 @@
           <input type="text" id="nationality" required>
         </div>
 
-      </div>
+        <div class="form-item">
 
+          <label for="" class="primary">Fan Status:</label>
+          <input type="radio" name="fan-status" value="Legend" id="legend">Legend
+
+          <input type="radio" name="fan-status" value="Cult Hero" id="cult-hero">Cult Hero
+
+          <input type="radio" name="fan-status" value="Embarrasment" id="embarrasment">Embarrasment
+
+
+        </div>
+
+
+
+      </div>
+    <label for="" class="primary"></label>
     <input type="submit" value="Save">
     </form>
 
     <button id="delete-all">Delete All</button>
     <h1>Celtic Player List</h1>
     <div id="playerProfileList"></div>
+
+
 
   </body>
 </html>
