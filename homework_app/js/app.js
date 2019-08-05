@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
   nationalityEntry.textContent = e.target.nationality.value;
   newDiv.appendChild(nationalityEntry);
 
-  // const fanStatusEntry = document.createElement('ul');
-  // fanStatusEntry.textContent = e.target.('input[name=fan-Status]:checked').value;
-  // newDiv.appendChild(fanStatusEntry);
+  const fanStatusEntry = document.createElement('ul');
+  fanStatusEntry.textContent = e.target.fanStatus.value;
+  newDiv.appendChild(fanStatusEntry);
 
   playerProfileList.appendChild(newDiv);
 
